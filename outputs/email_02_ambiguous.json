@@ -1,0 +1,14 @@
+{
+  "customer": {
+    "name": null,
+    "email": "carlos.perez@gmail.com"
+  },
+  "request": {
+    "product": null,
+    "detalle_problema": "El equipo a veces prende y a veces no.",
+    "urgency": "medium",
+    "urgency_reason": "Menciona que lo necesita para reuniones mañana en la mañana.",
+    "order_id": "ORD-1020"
+  },
+  "errors": []
+}

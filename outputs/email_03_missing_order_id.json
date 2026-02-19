@@ -1,0 +1,14 @@
+{
+  "customer": {
+    "name": null,
+    "email": "diego.soto@gmail.com"
+  },
+  "request": {
+    "product": null,
+    "detalle_problema": "La notebook no enciende desde anoche.",
+    "urgency": "high",
+    "urgency_reason": "Indica que trabaja remoto y está desesperado; el problema afecta su trabajo.",
+    "order_id": "MISSING"
+  },
+  "errors": ["missing_order_id"]
+}
