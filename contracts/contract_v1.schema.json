@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["customer", "request", "errors"],
+  "properties": {
+    "customer": {
+      "type": "object",
+      "required": ["name", "email"],
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "email": {
+      "type": ["string", "null"],
+      "format": "email"
+        }
+      },
+      "additionalProperties": false
+    },
+    "request": {
+      "type": "object",
+      "required": ["product", "detalle_problema", "urgency", "urgency_reason", "order_id"],
+      "properties": {
+        "product": { "type": ["string", "null"] },
+        "detalle_problema": { "type": ["string", "null"] },
+        "urgency": {
+          "type": "string",
+          "enum": ["low", "medium", "high", "unknown"]
+        },
+        "urgency_reason": { "type": ["string", "null"] },
+        "order_id": {
+          "type": "string",
+          "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "errors": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

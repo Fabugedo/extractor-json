@@ -1,0 +1,14 @@
+{
+  "customer": {
+    "name": "María López",
+    "email": "maria.lopez.com"
+  },
+  "request": {
+    "product": "Laptop X123",
+    "detalle_problema": "No enciende desde ayer.",
+    "urgency": "high",
+    "urgency_reason": "Indica que la necesita urgente para trabajar.",
+    "order_id": "ORD-8891"
+  },
+  "errors": []
+}
